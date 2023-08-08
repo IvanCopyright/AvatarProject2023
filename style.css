@@ -1,0 +1,131 @@
+body {
+    font-style: normal;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+button {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1032px;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.header {
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)) ,url("./images/header-bgc-image.png");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px solid #FFF;
+    display: flex;
+    width: 1440px;
+}
+.header-logo {
+    padding-left: 207px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.header-nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav-list-item-link {
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 300;
+}
+.header-nav-list-item-link:hover {
+    color: #94CFFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-button {
+    margin-left: 212px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+    
+}
+.herosection {
+    background-image: url("./images/herosectionbgcimg.png");
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 740px;
+}
+.hero-title {
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero-second-title {
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero-icons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 300px;
+    margin-right: 204px;
+}
+.hero-title {
+    padding-top: 180px;
+    padding-left: 204px;
+}
+.author-section {
+    max-width: 1440px;
+}
+.title {
+    margin-top: 75px;
+    text-align: center;
+    color: #0A3853;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.author-title {
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+}
+.author-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+.trailer-section {
+    background-image: url("./images/trailersectionbgcimg.png");
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+}
+
+
+
