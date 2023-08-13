@@ -35,6 +35,7 @@ button {
     background-position: center;
     border-bottom: 3px solid #FFF;
     display: flex;
+    width: 1440px;
 }
 .header-logo {
     padding-left: 207px;
