@@ -1,28 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-style: normal;
     line-height: normal;
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    /* padding: 0; */
 }
+
 li {
     list-style: none;
 }
-ul {
-    margin: 0;
-    padding: 0;
-}
+
 a {
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-button {
-    margin: 0;
-    padding: 0;
-}
+
 .container {
     width: 1032px;
     margin: auto;
@@ -35,7 +33,7 @@ button {
     background-position: center;
     border-bottom: 3px solid #FFF;
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
 }
 .header-logo {
     padding-left: 207px;
@@ -68,8 +66,8 @@ button {
     background-image: url("./images/herosectionbgcimg.png");
     background-size: cover;
     background-position: center;
-    width: 1440px;
     height: 740px;
+    max-width: 1440px;
 }
 .hero-title {
     color: white;
