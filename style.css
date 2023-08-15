@@ -23,9 +23,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .container {
     width: 1032px;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
+
 }
 .header {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)) ,url("./images/header-bgc-image.png");
@@ -34,15 +35,29 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-bottom: 3px solid #FFF;
     display: flex;
     max-width: 1440px;
-}
-.header-logo {
-    padding-left: 207px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 39px;
     padding-bottom: 39px;
+    padding-left: 207px;
+    padding-right: 48px;
 }
+.header-position {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 0;
+}
+
 .header-nav-list {
     display: flex;
-    justify-content: flex-end;
+    margin-left: 168px;
+    width: 325px;
+    justify-content: space-between;
+}
+
+.header-nav-list + .header-nav-list-item {
+    margin-left: 38px;
 }
 .header-nav-list-item-link {
     color: #FFF;
@@ -57,17 +72,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-weight: 600;
 }
 .header-button {
-    margin-left: 212px;
-    margin-top: 54px;
-    margin-bottom: 54px;
-    
+    margin-left: auto;
 }
+
 .herosection {
     background-image: url("./images/herosectionbgcimg.png");
     background-size: cover;
     background-position: center;
     height: 740px;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-title {
     color: white;
@@ -85,15 +100,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 300px;
-    margin-right: 204px;
+    
 }
 .hero-title {
-    padding-top: 180px;
-    padding-left: 204px;
+
 }
 .author-section {
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title {
     margin-top: 75px;
@@ -117,13 +132,51 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8px;
+    margin-bottom: 10px;
 }
 .trailer-section {
     background-image: url("./images/trailersectionbgcimg.png");
     background-size: cover;
     background-position: center;
-    width: 1440px;
+    max-width: 1440px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trailer-position {
+    display: flex;
+    justify-content: center;
+}
+.trailer-link {
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    width: 260px;
+    height: 80px;
+    color: #26C7EA;
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
 }
 
+
+.cards-section {
+    background-image: url("./images/bgc-img-cards-section.png");
+    background-size: cover;
+    background-position: center;
+    height: 704px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)), url("./images/footer-bgc-img.png");
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
