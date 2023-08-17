@@ -83,18 +83,43 @@ h1, h2, h3, h4, h5, h6, p, ul {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    
 }
 .hero-title {
     color: white;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
+    width: 298px;
+    height: 96px;
+
 }
 .hero-second-title {
     color: white;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
+    width: 376px;
+    height: 123px;
+    margin-bottom: 42px;
+}
+.club-btn {
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    width: 260px;
+    height: 80px;
+    color: #26C7EA;
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 30px;
+
+}
+.hero-arrow {
+    padding-left: 53px;
 }
 .hero-icons-list {
     display: flex;
@@ -102,9 +127,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     align-items: flex-end;
     
 }
-.hero-title {
 
-}
 .author-section {
     max-width: 1440px;
     margin-left: auto;
@@ -140,13 +163,29 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-position: center;
     max-width: 1440px;
     height: 740px;
+    padding-top: 330px;
+    padding-left: 590px;
+    padding-right: 590px;
+    padding-bottom: 331px;
     margin-left: auto;
     margin-right: auto;
 }
-.trailer-position {
-    display: flex;
-    justify-content: center;
+.header-button {
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
+    width: 141px;
+    height: 42px;
+    color: #26C7EA;
+    font-family: "HeadlandOne";
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 9px;
+    padding-bottom: 7.69px;
+    padding-left: 38px;
+    padding-right: 38px;
 }
+
 .trailer-link {
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
@@ -157,6 +196,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
+    padding: 25px 20px;
 }
 
 
@@ -175,6 +215,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    height: 223px;
     margin-left: auto;
     margin-right: auto;
 }
