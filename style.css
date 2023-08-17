@@ -108,14 +108,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .club-btn {
     border-radius: 45px 0px;
     border: 3px solid #26C7EA;
-    background: #0B0E66;
-    width: 260px;
-    height: 80px;
-    color: #26C7EA;
-    font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
+    background: #0B0E66;
+    width: 260px;
+    color: #26C7EA;
     padding: 10px 30px;
+    display: block;
+    text-align: center;
 
 }
 .hero-arrow {
@@ -125,8 +125,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
 }
+
 
 .author-section {
     max-width: 1440px;
@@ -175,15 +175,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border: 3px solid #26C7EA;
     background: #0B0E66;
     width: 141px;
-    height: 42px;
     color: #26C7EA;
-    font-family: "HeadlandOne";
     font-size: 20px;
     font-weight: 400;
     padding-top: 9px;
     padding-bottom: 7.69px;
     padding-left: 38px;
     padding-right: 38px;
+    display: block;
 }
 
 .trailer-link {
@@ -193,7 +192,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     width: 260px;
     height: 80px;
     color: #26C7EA;
-    font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
     padding: 25px 20px;
@@ -218,6 +216,24 @@ h1, h2, h3, h4, h5, h6, p, ul {
     height: 223px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.switcher {
+    display: flex;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.switcher-ua, .switcher-eng {
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400;
+}
+.switcher-eng {
+    padding-right: 10px;
+}
+.switcher-ua {
+    padding-left: 10px;
 }
 
 
