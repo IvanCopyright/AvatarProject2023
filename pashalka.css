@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-style: normal;
+    line-height: normal;
+    margin: 0px;
+    /* padding: 0; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.banner {
+    width: 20%;
+    /* Настройте ширину баннеров */
+    background-color: #f0f0f0;
+    /* Настройте цвет фона баннеров */
+    padding: 10px;
+}
+
+.left-banner {
+    order: 0;
+    /* Левый баннер будет первым */
+}
+
+.right-banner {
+    order: 2;
+    /* Правый баннер будет последним */
+}
+
+.content {
+    order: 1;
+    width: 60%;
+    /* Оставшееся пространство для основного контента */
+    background-color: #fff;
+    /* Цвет фона основного контента */
+    
+}
+.background-img {
+    background: url("./images/bgc-pashalka1.webp");
+    background-size: cover;
+    background-position: center;
+    height: 949px;
+}
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
+#video {
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bgc-img {
+    background-image: url("./images/herecouldbeyouradv.jpg");
+}
+.congrats {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 60px;
+    color: bisque;
+    text-align: center;
+    padding-top: 10px;
+}
+.title {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 40px;
+    color: plum;
+    text-align: center;
+    padding-top: 20px;
+}
+.subtitle {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#muteButton,
+#unmuteButton {
+    background-color: plum;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#muteButton:hover,
+#unmuteButton:hover {
+    background-color: #a1006b;
+    /* Изменение цвета при наведении */
+}
