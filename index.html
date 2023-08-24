@@ -7,11 +7,11 @@
     <title>Avatar Project --IvanCopyright--</title>
     <link rel="icon" href="./images/avatar-facivon.webp" type="image/x-icon">
     <link rel="shortcut icon" href="./images/avatar-facivon.webp" type="image/x-icon">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -193,23 +193,28 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <a href="/">
-                <img src="./images/avatar-header-logo.webp" alt="Лого в футері">
-            </a>
-            <img src="./images/footer-line.webp" alt="Розділ в футері">
-            <address>
+            <div class="footer-content">
+                <a href="/">
+                    <img src="./images/avatar-header-logo.webp" alt="Лого в футері">
+                </a>
+                <img src="./images/footer-line.webp" alt="Розділ в футері" class="footer-line">
 
-                <p class="qatext">Q&A E-mail</p>
-                <img src="./images/footer-lines.webp" alt="ЕмаілQA" class="qalines">
-                <p class="qacontact">avatartwowqa@gmail.com</p>
+                <ul class="footer-emails-list">
+                    <li class="footer-emails-list-item">
+                        <p class="qatext">Q&A E-mail</p>
+                        <img src="./images/footer-lines.webp" alt="ЕмаілQA" class="qalines">
+                        <p class="qacontact">avatartwowqa@gmail.com</p>
+                    </li>
 
+                    <li class="footer-emails-list-item">
+                        <p class="copytext">Cooperation E-mail</p>
+                        <img src="./images/footer-lines2.webp" alt="ЕмаілCopy" class="copylines">
+                        <p class="copycontact">avatartwowcoop@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
 
-                <p class="copytext">Cooperation E-mail</p>
-                <img src="./images/footer-lines2.webp" alt="ЕмаілCopy" class="copylines">
-                <p class="copycontact">avatartwowcoop@gmail.com</p>
-
-            </address>
-            <small>&copy;2023 Avatar: The Way Of Water. All rights reserved</small>
+            <small class="footer-copy-information">&copy;2023 Avatar: The Way Of Water. All rights reserved</small>
         </div>
     </footer>
 </body>

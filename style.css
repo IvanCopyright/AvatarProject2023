@@ -267,34 +267,52 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: 24px;
 }
 .footer {
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)), url("./images/footer-bgc-img.jpg");
-    background-size: cover;
-    background-position: center;
     max-width: 1440px;
     height: 223px;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 35px;
-    padding-bottom: 25px; */
+    padding-top: 35px;
+    padding-bottom: 25px;
     padding-left: 204px;
     padding-right: 204px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)), url("./images/footer-bgc-img.jpg");
+    background-size: cover;
+    background-position: center;
     
 }
-
-
+.footer-emails-list {
+    margin-left: 80px;
+    width: 690px;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+.footer-emails-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-emails-list-item:last-child {
+    margin-top: 16px;
+}
+.footer-line {
+    margin-left: 80px;
+}
 .qalines {
-    height: 1.5px;
+    height: 2px;
     width: 269px;
 }
 .qatext, .qacontact, .copytext, .copycontact {
-    color: red;
+    color: #FFF;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
 }
 .copylines {
-    height: 1.5px;
+    height: 2px;
     width: 194px;
 }
 .switcher {
@@ -313,4 +331,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .switcher-ua {
     padding-left: 10px;
+}
+.footer-copy-information {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 474px;
 }
